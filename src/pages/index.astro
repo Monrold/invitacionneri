@@ -6,6 +6,7 @@ import location from '../images/location.svg';
 import whatsapp from '../images/whatsapp.svg';
 import wakanda from '../images/black-panter-image.png';
 import ogimage from '../images/og-image-neri.png';
+import '@fontsource/rubik-mono-one';
 
 ---
 <style define:vars={{ pantera: `url("${pantera.src}")`}}>
@@ -21,6 +22,14 @@ import ogimage from '../images/og-image-neri.png';
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: bottom;
+ }
+
+ .name{
+    font-family: 'Rubik Mono One', sans-serif;
+ }
+
+ .date{
+    font-family: 'Rubik Mono One', sans-serif;
  }
  
 </style>
@@ -54,11 +63,11 @@ import ogimage from '../images/og-image-neri.png';
             </video>
         </div>
          <div>
-			<h2 class="text-white font-semibold text-center text-2xl pb-8">Merak Neri</h2>
+			<h2 class="text-white font-semibold text-center text-2xl pb-8 name">Merak Neri</h2>
             <h2 class="text-white font-semibold text-center">Únete a la magia de</h2>
             <h2 class="text-white font-semibold text-center text-4xl">mi cumpleaños número 5</h2>
 			<div class="flex items-center justify-center mt-8">
-            <h2 class="text-center text-[#6666d7]">28 de Enero a las 2 pm</h2>
+            <h2 class="text-center text-[#6666d7] date">28 de Enero a las 2 pm</h2>
 			<img class="w-8" src={emojiPanter.src} alt="">
 			</div>
             <h2 class="text-white text-center mt-4 pb-4 px-4">Temática de disfraz 🥸 de tu super héroe favorito de <span class="font-black">MARVEL</span></h2>          
